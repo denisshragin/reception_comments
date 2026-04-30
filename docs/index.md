@@ -50,7 +50,7 @@ ou les deux commentaires ensemble si les deux analyses pH-15°C et pH EU sont de
  
 ### Commentaires pour les analyses de la DBO
 
-L'analyse de la Demande chimique en oxygène est une analyse avec un court délai analytique ; cependant, l'échantillon peut être congelé pour prolonger la durée de conservation. Présentement, dans LIMS, il existe 6 paramètres distincts pour l'analyse de la demande biochimique en oxygène :
+L'analyse de la Demande biochimique en oxygène est une analyse avec un court délai analytique ; cependant, l'échantillon peut être congelé pour prolonger la durée de conservation. Présentement, dans LIMS, il existe 6 paramètres distincts pour l'analyse de la demande biochimique en oxygène :
 
 | Paramètre | Nom complet                                                |
 |---------- |------------------------------------------------------------|
@@ -73,7 +73,11 @@ L'analyse de la Demande chimique en oxygène est une analyse avec un court déla
 | EDCDBOSC1 | Demande biochimiqe en oxygène carbonée et dissous          |
 
 Si l'échantillon pour l'analyse de la Demande biochimique en oxygène (totale, carbonée, dissoute ou carbonée et dissoute) a été congelé par le client (ou à la réception), il faut utiliser le nom complet de l'analyse dans le commentaire ajouté, par exemple :
+
 «*L'échantillon pour l'analyse de la demande biochimique en oxygène **totale** a été congelé par le client.*»
+
 Si plusieurs paramètres de la DBO sont demandés par le client (DBOT01 et DBOC01, ou DBOT04 et DBOC02), il faudrait ajouter le commentaire avec le nom complet de l'analyse pour CHAQUE paramètre de la DBO concerné, par exemple :
+
 «*L'échantillon pour l'analyse de la Demande biochimique en oxygène **totale** a été congelé par le client.*
+
 *L'échantillon pour l'analyse de la Demande biochimique en oxygène **carbonée** a été congelé par le client.*»
