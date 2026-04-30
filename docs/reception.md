@@ -183,19 +183,19 @@
 
 ## Délai de conservation dépassé DBO
 
-=== "DBOt"
+=== "DBO totale"
     ```
     L'analyse de la Demande biochimique en oxygène totale a été effectuée dans un délai dépassé.
     ```
-=== "DBOc"
+=== "DBO carbonée"
     ```
     L'analyse de la Demande biochimique en oxygène carbonée a été effectuée dans un délai dépassé.
     ```
-=== "DBOd"
+=== "DBO dissous"
     ```
     L'analyse de la Demande biochimique en oxygène dissous a été effectuée dans un délai dépassé.
     ```
-=== "DBOc et d"
+=== "DBO carbonée et dissous"
     ```
     L'analyse de la Demande biochimique en oxygène carbonée et dissous a été effectuée dans un délai dépassé.
     ```
@@ -247,6 +247,7 @@ L'échantillon pour l'analyse des Métaux dissous a été filtré et préservé 
     L'échantillon a été congelé au laboratoire afin de respecter le délai de conservation.
     ```
 ## DBO congélation client
+
 === "DBO totale"
     ```
     L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé par le client. 
@@ -261,16 +262,17 @@ L'échantillon pour l'analyse des Métaux dissous a été filtré et préservé 
     L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé par le client. 
     ```
 
-## DBO congélation labo     
+## DBO congélation labo 
+   
 === "DBO totale"
     ```
     L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé à la réception au laboratoire.
     ```
-=== "DBO carbo"
+=== "DBO carbonée"
     ```
     L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé à la réception au laboratoire. 
     ```
-=== "DBOt et DBOc"
+=== "DBO totale et DBO carbonée"
     ```
     Les échantillons pour l'analyse de la Demande biochimique en oxygène totale et de la Demande biochimique en oxygène carbonée ont été congelés à la réception au laboratoire. 
     ```
@@ -278,7 +280,7 @@ L'échantillon pour l'analyse des Métaux dissous a été filtré et préservé 
     ```
     L'échantillon pour l'analyse de la Demande biochimique en oxygène dissous a été congelé à la réception au laboratoire. 
     ```
-=== "DBOc et d"
+=== "DBO carbonée et dissous"
     ```
     L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée et dissous a été congelé à la réception au laboratoire. 
     ```
@@ -298,14 +300,14 @@ L'échantillon pour l'analyse des Métaux dissous a été filtré et préservé 
 ## DBO reçu décongelée
 
 === "DBO totale reçu décongelée"
-```
-L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé par le client, mais a été reçu décongelé.
-```
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé par le client, mais a été reçu décongelé.
+    ```
 
 === "DBO carbonée reçu décongelée"
-```
-L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé par le client, mais a été reçu décongelé.
-```
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé par le client, mais a été reçu décongelé.
+    ```
 
 ## Anglais
 ### BOD Frozen-client
