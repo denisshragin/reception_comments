@@ -72,7 +72,7 @@ L'analyse de la Demande biochimique en oxygène est une analyse avec un court d�
 | EDCDBOS01 | Demande biochimiqe en oxygène dissous                      |
 | EDCDBOSC1 | Demande biochimiqe en oxygène carbonée et dissous          |
 
-Si l'échantillon pour l'analyse de la Demande biochimique en oxygène (totale, carbonée, dissoute ou carbonée et dissoute) a été congelé par le client (ou à la réception), il faut utiliser le nom complet de l'analyse dans le commentaire ajouté, par exemple :
+Si l'échantillon pour l'analyse de la Demande biochimique en oxygène (totale, carbonée, dissous ou carbonée et dissous) a été congelé par le client (ou à la réception), il faut utiliser le nom complet de l'analyse dans le commentaire ajouté, par exemple :
 
 «*L'échantillon pour l'analyse de la demande biochimique en oxygène **totale** a été congelé par le client.*»
 
