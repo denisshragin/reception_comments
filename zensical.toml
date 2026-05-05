@@ -8,7 +8,7 @@
 
 [project]
 
-site_dir = "site_reception_comments"
+# site_dir = "site_reception_comments"
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
@@ -29,8 +29,8 @@ site_author = "Denis Shragin"
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
 # Read more: https://zensical.org/docs/setup/basics/#site_url
- site_url = "https://denisshragin.github.io/reception_comments/"
-#site_url = " "
+site_url = "https://denisshragin.github.io/reception_comments/"
+# site_url = " "
 # use_directory_urls = false
 
 
