@@ -7,14 +7,13 @@ title: Écrire un commentaire  # This changes the browser tab title
 **Quelques règles de base pour écrire de bons commentaires :**
 
 - Ne pas laisser la première ligne vide ;
-- Ne pas laisser de lignes vides entre les commentaires ;
 - Mettre un point « . » à la fin d'une phrase ;
 - Mettre une espace avant et après « : » ;
 - Mettre chaque commentaire sur une nouvelle ligne ;
 - Mettre la mention « Commentaires du client : » avant les commentaires du client ;
 - Mettre une espace entre le nombre et l'unité de mesure, par exemple « 10.36 mg/L » ;
 - Pour les échantillons de BNQ, utiliser le commentaire prédéfini en changeant seulement le numéro d'échantillonneur ;
-- Utiliser le nom d'analyse complet dans les commentaires, sans abréviations, sauf pour les analyses qui comportent déjà des abréviations reconnues (COV, par exemple).
+- Utiliser le nom d'analyse complet dans les commentaires, sans abréviations, sauf pour les analyses qui ont déjà un nom complet dans LIMS ("Composés organique volatiles (COV)", par exemple).
 
 
 ### Mieux comrendre le message du client sur le CP
@@ -32,20 +31,20 @@ Il n'est souvent pas facile de déchiffrer ce qui est écrit sur le CP ; cependa
 
 ### Compléter le commentaire général prédéfini
 
-Plusieurs commentaires prédéfinis sont conçus de façon générale et doivent être complétés en ajoutant l'information notée sur le CP, comme, par exemple, la température mesurée par le client (« Température mesurée par le client : * °C. ») ou la date et l'heure d'échantillonnage (« Échantillon composé 24 heures, soit du * au *. »). Il peut s'agir également de l'information obtenue au moment de la réception, par exemple un délai dépassé pour l'une des analyses à l'arrivée au laboratoire (« L'analyse de XXX a été effectuée dans un délai dépassé. »). Dans ces cas, les symboles « * » et les lettres « XXX » (« YYY », « ZZZ ») doivent être remplacés correctement.
+Plusieurs commentaires prédéfinis sont conçus de façon générale et doivent être complétés en ajoutant l'information notée sur le CP, comme, par exemple, la température mesurée par le client (« Température mesurée par le client : * °C. ») ou la date et l'heure d'échantillonnage (« Échantillon composé 24 heures, soit du * au *. »). Il peut s'agir également de l'information obtenue au moment de la réception, par exemple un délai dépassé pour l'une des analyses à l'arrivée au laboratoire (« L'échantillon pour l'analyse de XXX a été reçu après l'expiration du délai de conservation réglementaire. L'analyse a été effectuée dans un délai dépassé à la demande du client. »). Dans ces cas, les symboles « * » et les lettres « XXX » (« YYY », « ZZZ ») doivent être remplacés correctement.
 
 S'il s'agit d'un commentaire contenant « * » (sauf le commentaire **« * La température a été omise lors de la réception de l'échantillon. »**), il faudrait remplacer « * » par la valeur appropriée (date, heure, température) ; cependant, il ne faudrait pas supprimer les espaces qui entourent « * », ni ajouter de nouvelles espaces avant ou après.
 Par exemple : « Température à la réception : * °C. » doit être correctement modifié comme « Température à la réception : 15.2 °C. » et non comme « Température à la réception :    15.2°C. ».
 S'il s'agit d'un commentaire contenant « XXX » (« YYY » ou « ZZZ »), il faudrait remplacer « XXX » par le nom d'analyse complet.
-Par exemple : « L'échantillon pour l'analyse de XXX a été reçu après l'expiration du délai de conservation réglementaire. L'analyse a été effectuée à la demande du client. » doit être modifié comme suit : « L'échantillon pour l'analyse du pH-15 °C a été reçu après l'expiration du délai de conservation réglementaire. L'analyse a été effectuée à la demande du client. » (**« XXX » a été remplacé par « le pH-15 °C »**).
+Par exemple : « L'échantillon pour l'analyse de XXX a été reçu après l'expiration du délai de conservation réglementaire. L'analyse a été effectuée dans un délai dépassé à la demande du client. » doit être modifié comme suit : « L'échantillon pour l'analyse du pH-15 °C a été reçu après l'expiration du délai de conservation réglementaire. L'analyse a été effectuée dans un délai dépassé à la demande du client. » (**« XXX » a été remplacé par « le pH-15 °C »**).
  
  
-Par exemple, au lieu d’utiliser le commentaire « pH reçu et analysé hors délai », il faudrait utiliser le commentaire prédéfini *« L’échantillon pour l'analyse du pH-15°C a été reçu après l'expiration du délai de conservation réglementaire. L'analyse a été effectuée à la demande du client. »*
-ou *« L'échantillon pour l'analyse du pH EU a été reçu après l'expiration du délai de conservation réglementaire. L'analyse a été effectuée à la demande du client. »*
+Par exemple, au lieu d’utiliser le commentaire « pH reçu et analysé hors délai », il faudrait utiliser le commentaire prédéfini *« L’échantillon pour l'analyse du pH-15°C a été reçu après l'expiration du délai de conservation réglementaire. L'analyse a été effectuée dans un délai dépassé à la demande du client. »*
+ou *« L'échantillon pour l'analyse du pH EU a été reçu après l'expiration du délai de conservation réglementaire. L'analyse a été effectuée dans un délai dépassé à la demande du client. »*
 ou les deux commentaires ensemble si les deux analyses pH-15°C et pH EU sont demandées.
 
-*« L'échantillon pour l'analyse du pH EU a été reçu après l'expiration du délai de conservation réglementaire. L'analyse a été effectuée à la demande du client*.  
-*L'échantillon pour l'analyse du pH-15°C a été reçu après l'expiration du délai de conservation réglementaire. L'analyse a été effectuée à la demande du client. »*
+*« L'échantillon pour l'analyse du pH EU a été reçu après l'expiration du délai de conservation réglementaire. L'analyse a été effectuée dans un délai dépassé à la demande du client*.  
+*L'échantillon pour l'analyse du pH-15°C a été reçu après l'expiration du délai de conservation réglementaire. L'analyse a été effectuée dans un délai dépassé à la demande du client. »*
  
  
 ### Commentaires pour les analyses de la DBO

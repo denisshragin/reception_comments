@@ -1,7 +1,6 @@
 # Réception
 
 ## Température
-
 === "Client"
     ```
     Température mesurée par le client : * °C.
@@ -40,29 +39,206 @@
     ```
     Autorisation à transmettre les résultats d'analyses aux préleveurs.
     ```
-## Reçu en délai dépassé et analysé
+
+## Type de captage
+=== "Général"
+    ```
+    Type de captage : *.
+    ```
+=== "Puits"
+    ```
+    Type de captage : Puits.
+    ```
+=== "Puits de surface"
+    ```
+    Type de captage : Puits de surface.
+    ```
+=== "Puits tubulaire"
+    ```
+    Type de captage : Puits tubulaire.
+    ```
+=== "Puits artésien"
+    ```
+    Type de captage : Puits artésien.
+    ```
+    
+## Reçu et analysé dans un délai dépassé
 
 === "Général"
     ```
-    L’échantillon pour l'analyse de XXX a été reçu après l'expiration du délai de conservation réglementaire. L'analyse a été effectuée à la demande du client. 
+    L’échantillon pour l'analyse de XXX a été reçu après l'expiration du délai de conservation réglementaire. L'analyse a été effectuée dans un délai dépassé à la demande du client. 
     ```
 === "pH EU"
     ```
-    L’échantillon pour l'analyse du pH EU a été reçu après l'expiration du délai de conservation réglementaire. L'analyse a été effectuée à la demande du client. 
+    L’échantillon pour l'analyse du pH EU a été reçu après l'expiration du délai de conservation réglementaire. L'analyse a été effectuée dans un délai dépassé à la demande du client. 
     ```
 === "pH-15°C"
     ```
-    L’échantillon pour l'analyse du pH-15°C a été reçu après l'expiration du délai de conservation réglementaire. L'analyse a été effectuée à la demande du client. 
+    L’échantillon pour l'analyse du pH-15°C a été reçu après l'expiration du délai de conservation réglementaire. L'analyse a été effectuée dans un délai dépassé à la demande du client. 
     ```
 === "Chlore total"
     ```
-    L’échantillon pour l'analyse du Chlore résiduel totale a été reçu après l'expiration du délai de conservation réglementaire. L'analyse a été effectuée à la demande du client. 
+    L’échantillon pour l'analyse du Chlore résiduel totale a été reçu après l'expiration du délai de conservation réglementaire. L'analyse a été effectuée dans un délai dépassé à la demande du client. 
     ```
 === "Chlore libre"
     ```
-    L’échantillon pour l'analyse du Chlore résiduel libre a été reçu après l'expiration du délai de conservation réglementaire. L'analyse a été effectuée à la demande du client. 
+    L’échantillon pour l'analyse du Chlore résiduel libre a été reçu après l'expiration du délai de conservation réglementaire. L'analyse a été effectuée dans un délai dépassé à la demande du client. 
     ```
 
+
+## Délai de conservation dépassé (1 analyse), analysé à la demande du client
+
+=== "Général mono"
+    ```
+    L'analyse de XXX a été effectuée dans un délai dépassé, à la demande du client.
+    ```
+=== "Chlore résiduel total"
+    ```
+    L'analyse du Chlore résiduel total a été effectuée dans un délai dépassé, à la demande du client.
+    ```
+=== "Chlore résiduel libre"
+    ```
+    L'analyse du Chlore résiduel libre a été effectuée dans un délai dépassé, à la demande du client.
+    ```
+=== "pH EU"
+    ```
+    L'analyse du pH EU a été effectuée dans un délai dépassé, à la demande du client.
+    ```
+=== "pH-15°C"
+    ```
+    L'analyse du pH-15°C a été effectuée dans un délai dépassé, à la demande du client.
+    ```
+=== "DBO totale"
+    ```
+    L'analyse de la Demande biochimique en oxygène totale a été effectuée dans un délai dépassé, à la demande du client.
+    ```
+=== "DBO carbonée"
+    ```
+    L'analyse de la Demande biochimique en oxygène carbonée a été effectuée dans un délai dépassé, à la demande du client.
+    ```
+
+## Délai de conservation dépassé (> 1 analyse), analysé à la demande du client
+
+=== "Général multi"
+    ```
+    Les analyses de XXX, de YYY et de ZZZ ont été effectuées dans un délai dépassé, à la demande du client.
+    ```
+=== "pH EU et pH-15°C"
+    ```
+    Les analyses du pH EU et du pH-15°C ont été effectuées dans un délai dépassé, à la demande du client.
+    ```
+=== "Chlore libre et total"
+    ```
+    Les analyses du Chlore résiduel libre et du Chlore résiduel total ont été effectuées dans un délai dépassé, à la demande du client.
+    ```
+=== "Nitrites, Nitrates, Nitrites et Nitrates"
+    ```
+    Les analyses des Nitrites, des Nitrates et des Nitrites et Nitrates ont été effectuées dans un délai dépassé, à la demande du client.
+    ```
+
+## Délai de conservation dépassé DBO et Oxygène dissous
+
+=== "DBO totale"
+    ```
+    L'analyse de la Demande biochimique en oxygène totale a été effectuée dans un délai dépassé, à la demande du client.
+    ```
+=== "DBO carbonée"
+    ```
+    L'analyse de la Demande biochimique en oxygène carbonée a été effectuée dans un délai dépassé, à la demande du client.
+    ```
+=== "DBO dissous"
+    ```
+    L'analyse de la Demande biochimique en oxygène dissous a été effectuée dans un délai dépassé, à la demande du client.
+    ```
+=== "DBO carbonée et dissous"
+    ```
+    L'analyse de la Demande biochimique en oxygène carbonée et dissous a été effectuée dans un délai dépassé, à la demande du client.
+    ```
+=== "Oxygène dissous"
+    ```
+    L'analyse de l'Oxygène dissous a été effectuée dans un délai dépassé, à la demande du client.
+    ```
+
+## Filtration par le client
+
+Métaux dissous - filtration sur le terrain :
+```
+L'échantillon pour l'analyse des Métaux dissous a été filtré et préservé sur le terrain.
+```
+
+## DBO congélation client
+=== "DBO totale"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé par le client. 
+    ```
+=== "DBO carbonée"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé par le client. 
+    ```
+=== "DBO totale et DBO carbonée"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé par le client.
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé par le client. 
+    ```
+
+## DBO congélation labo 
+=== "DBO totale"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé à la réception au laboratoire.
+    ```
+=== "DBO carbonée"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé à la réception au laboratoire. 
+    ```
+=== "DBO totale et DBO carbonée"
+    ```
+    Les échantillons pour l'analyse de la Demande biochimique en oxygène totale et de la Demande biochimique en oxygène carbonée ont été congelés à la réception au laboratoire. 
+    ```
+=== "DBO dissous"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène dissous a été congelé à la réception au laboratoire. 
+    ```
+=== "DBO carbonée et dissous"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée et dissous a été congelé à la réception au laboratoire. 
+    ```
+
+## DBO congélation client/labo 
+=== "DBO totale"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé par le client.
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé à la réception au laboratoire.
+    ```
+=== "DBO carbonée"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé par le client.
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé à la réception au laboratoire. 
+    ```
+
+## DBO reçu décongelée
+
+=== "DBO totale reçu décongelée"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé par le client, mais a été reçu décongelé.
+    ```
+=== "DBO carbonée reçu décongelée"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé par le client, mais a été reçu décongelé.
+    ```
+
+## Échantillon - congélation
+=== "Congélation-client (sols)"
+    ``` 
+    L'échantillon a été congelé par le client.
+    ```
+=== "Congélation à la réception"
+    ```
+    L'échantillon a été congelé à la réception au laboratoire afin de prolonger le délai de conservation.
+    ```
+=== "Congélation au laboratoire"
+    ```
+    L'échantillon a été congelé au laboratoire afin de prolonger le délai de conservation.
+    ```
 
 ## Délai de conservation dépassé (1 analyse)
 
@@ -125,188 +301,6 @@
 === "Oxygène dissous"
     ```
     L'analyse de l'Oxygène dissous a été effectuée dans un délai dépassé.
-    ```
-
-
-## Délai de conservation dépassé (1 analyse) demande du client
-
-=== "Général mono client"
-    ```
-    L'analyse de XXX a été effectuée dans un délai dépassé, à la demande du client.
-    ```
-=== "Chlore résiduel total"
-    ```
-    L'analyse du Chlore résiduel total a été effectuée dans un délai dépassé, à la demande du client.
-    ```
-=== "Chlore résiduel libre"
-    ```
-    L'analyse du Chlore résiduel libre a été effectuée dans un délai dépassé, à la demande du client.
-    ```
-=== "pH EU"
-    ```
-    L'analyse du pH EU a été effectuée dans un délai dépassé, à la demande du client.
-    ```
-=== "pH-15°C"
-    ```
-    L'analyse du pH-15°C a été effectuée dans un délai dépassé, à la demande du client.
-    ```
-=== "DBO totale"
-    ```
-    L'analyse de la Demande biochimique en oxygène totale a été effectuée dans un délai dépassé, à la demande du client.
-    ```
-=== "DBO carbonée"
-    ```
-    L'analyse de la Demande biochimique en oxygène carbonée a été effectuée dans un délai dépassé, à la demande du client.
-    ```
-
-## Délai de conservation dépassé (> 1 analyse)
-=== "Général multi"
-    ```
-    Les analyses de XXX, de YYY et de ZZZ ont été effectuées dans un délai dépassé.
-    ```
-=== "Général multi client"
-    ```
-    Les analyses de XXX, de YYY et de ZZZ ont été effectuées dans un délai dépassé, à la demande du client.
-    ```
-=== "pH EU et pH-15°C"
-    ```
-    Les analyses du pH EU et du pH-15°C ont été effectuées dans un délai dépassé.
-    ```
-=== "Chlore libre et total"
-    ```
-    Les analyses du Chlore résiduel libre et du Chlore résiduel total ont été effectuées dans un délai dépassé.
-    ```
-=== "Nitrites, Nitrates, Nitrites et Nitrates"
-    ```
-    Les analyses des Nitrites, des Nitrates et des Nitrites et Nitrates ont été effectuées dans un délai dépassé.
-    ```
-
-## Délai de conservation dépassé DBO
-
-=== "DBO totale"
-    ```
-    L'analyse de la Demande biochimique en oxygène totale a été effectuée dans un délai dépassé.
-    ```
-=== "DBO carbonée"
-    ```
-    L'analyse de la Demande biochimique en oxygène carbonée a été effectuée dans un délai dépassé.
-    ```
-=== "DBO dissous"
-    ```
-    L'analyse de la Demande biochimique en oxygène dissous a été effectuée dans un délai dépassé.
-    ```
-=== "DBO carbonée et dissous"
-    ```
-    L'analyse de la Demande biochimique en oxygène carbonée et dissous a été effectuée dans un délai dépassé.
-    ```
-=== "Oxygène dissous"
-    ```
-    L'analyse de l'Oxygène dissous a été effectuée dans un délai dépassé.
-    ```
-
-## Filtration par le client
-
-Métaux dissous - filtration sur le terrain :
-```
-L'échantillon pour l'analyse des Métaux dissous a été filtré et préservé sur le terrain.
-```
-
-## Type de captage
-=== "Général"
-    ```
-    Type de captage : *.
-    ```
-=== "Puits"
-    ```
-    Type de captage : Puits.
-    ```
-=== "Puits de surface"
-    ```
-    Type de captage : Puits de surface.
-    ```
-=== "Puits tubulaire"
-    ```
-    Type de captage : Puits tubulaire.
-    ```
-=== "Puits artésien"
-    ```
-    Type de captage : Puits artésien.
-    ```
-
-## Échantillon - congélation 
-=== "Congélation-client"
-    ``` 
-    L'échantillon a été congelé par le client.
-    ```
-=== "Congélation à la réception"
-    ```
-    L'échantillon a été congelé à la réception au laboratoire afin de respecter le délai de conservation.
-    ```
-=== "Congélation au laboratoire"
-    ```
-    L'échantillon a été congelé au laboratoire afin de respecter le délai de conservation.
-    ```
-## DBO congélation client
-
-=== "DBO totale"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé par le client. 
-    ```
-=== "DBO carbonée"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé par le client. 
-    ```
-=== "DBO totale et DBO carbonée"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé par le client.
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé par le client. 
-    ```
-
-## DBO congélation labo 
-   
-=== "DBO totale"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé à la réception au laboratoire.
-    ```
-=== "DBO carbonée"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé à la réception au laboratoire. 
-    ```
-=== "DBO totale et DBO carbonée"
-    ```
-    Les échantillons pour l'analyse de la Demande biochimique en oxygène totale et de la Demande biochimique en oxygène carbonée ont été congelés à la réception au laboratoire. 
-    ```
-=== "DBO dissous"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène dissous a été congelé à la réception au laboratoire. 
-    ```
-=== "DBO carbonée et dissous"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée et dissous a été congelé à la réception au laboratoire. 
-    ```
-
-## DBO congélation client/labo 
-=== "DBO totale"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé par le client.
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé à la réception au laboratoire.
-    ```
-=== "DBO carbonée"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé par le client.
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé à la réception au laboratoire. 
-    ```
-
-## DBO reçu décongelée
-
-=== "DBO totale reçu décongelée"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé par le client, mais a été reçu décongelé.
-    ```
-
-=== "DBO carbonée reçu décongelée"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé par le client, mais a été reçu décongelé.
     ```
 
 ## Anglais
