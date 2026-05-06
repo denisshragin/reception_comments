@@ -40,6 +40,20 @@
     Autorisation à transmettre les résultats d'analyses aux préleveurs.
     ```
 
+## Échantillon composé
+=== "Échantillon composé"
+    ```
+    Échantillon composé 24 heures, soit du * au *.
+    ```
+=== "Échantillon composé 00:00-23:59"
+    ```
+    Échantillon composé 24 heures, soit du 00:00 au 23:59.
+    ```
+=== "Échantillon composé + coliformes"
+    ```
+    Échantillon composé 24 heures, soit du * au *. Le prélèvement pour l'analyse des coliformes fécaux est un échantillonage instantané en date du *.
+    ```
+
 ## Type de captage
 === "Général"
     ```
@@ -61,7 +75,7 @@
     ```
     Type de captage : Puits artésien.
     ```
-    
+
 ## Reçu et analysé dans un délai dépassé
 
 === "Général"
