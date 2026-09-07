@@ -76,6 +76,43 @@
     Type de captage : Puits artésien.
     ```
 
+## Varia
+=== "Commentaires du client"
+    ```
+    Commentaires du client : *.
+    ```
+=== "Commentaires à la réception"
+    ```
+    Commentaires à la réception : *.
+    ```
+=== "Débit"
+    ```
+    Débit : m3/j.
+    ```
+=== "BNQ"
+    ```
+    Commentaires du client : Normes et limites du BNQ. Échantillonneur # * .
+    ```
+
+## Unités
+=== "Température, °C"
+    ```
+    °C
+    ```
+=== "Débit, m3/j"
+    ```
+    m3/j
+    ```
+=== "Concentration, mg/L "
+    ```
+    mg/L
+    ```
+=== "Conductivité, µS/cm "
+    ```
+    µS/cm
+    ```
+
+
 ## Reçu et analysé dans un délai dépassé
 
 === "Général"
@@ -351,40 +388,3 @@ L'échantillon pour l'analyse des Métaux dissous a été filtré et préservé 
 ```
 The pH analysis was performed after the holding time has expired.
 ```
-
-
-## Varia
-=== "Commentaires du client"
-    ```
-    Commentaires du client : *.
-    ```
-=== "Commentaires à la réception"
-    ```
-    Commentaires à la réception : *.
-    ```
-=== "Débit"
-    ```
-    Débit : m3/j.
-    ```
-=== "BNQ"
-    ```
-    Commentaires du client : Normes et limites du BNQ. Échantillonneur # * .
-    ```
-
-## Unités
-=== "Température, °C"
-    ```
-    °C
-    ```
-=== "Débit, m3/j"
-    ```
-    m3/j
-    ```
-=== "Concentration, mg/L "
-    ```
-    mg/L
-    ```
-=== "Conductivité, µS/cm "
-    ```
-    µS/cm
-    ```

@@ -53,6 +53,8 @@ Copyright &copy; 2026 Denis Shragin
 #        { "Welcome" = "index.md"},
         { "Comment écrire un commentaire" = "index.md" },
         { "Réception" = "reception.md" },
+        { "Chimie" = "chimie.md" },
+        { "Inter-paramètres" = "inter-param.md" },
 #        { "Get started" = "get_started.md" },
 #        { "Markdown in 5min" = "markdown.md" },
 ]

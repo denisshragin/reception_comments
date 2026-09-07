@@ -12,3 +12,8 @@ wheels/
 site/
 __pycache__/
 .DS_Store
+
+main.py
+site_comments/
+site_reception_comments/
+uv.lock
