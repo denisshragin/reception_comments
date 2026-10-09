@@ -76,10 +76,10 @@
     Type de captage : Puits artésien.
     ```
 
-## Varia
+## Commentaires du client
 === "Commentaires du client"
     ```
-    Commentaires du client : *.
+    Commentaires du client : 
     ```
 === "Commentaires à la réception"
     ```
@@ -87,7 +87,7 @@
     ```
 === "Débit"
     ```
-    Débit : m3/j.
+    Commentaires du client : Débit : m3/j.
     ```
 === "BNQ"
     ```
